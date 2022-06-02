@@ -10,14 +10,15 @@
 int main(void)
 {
 	int a;
+	long e;
 	float b;
 	double d;
 	char c;
 
-	printf("the size of int: %zu Bytes \n," sizeof(a));
-	printf("the size of float: %zu Bytes \n," sizeof(b));
-	printf("the size of double: %zu Bytes \n," sizeof(d));
-	printf("the size of char: %zu Bytes \n," sizeof(c));
-
+        printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(c));
+        printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(e));
+	printf("Size of double: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(b));
 	return (0);
 }
