@@ -13,7 +13,7 @@ int main(void)
 	while (1)
 	{
 		fsum = fb1 + fb2;
-		if (fsum > 400000)
+		if (fsum > 4000000)
 			break;
 		if ((fsum % 2) == 0)
 			totalsum += fsum;
