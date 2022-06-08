@@ -43,7 +43,7 @@ int main(void)
 		m = y;
 	}
 	printf("\n");
-	fprintf(stderr, "success");
+	fprintf(stderr, "[Anything]");
 	return (0);
 }
 
