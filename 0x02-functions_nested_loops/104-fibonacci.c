@@ -43,6 +43,7 @@ int main(void)
 		m = y;
 	}
 	printf("\n");
+	printf("success");
 	return (0);
 }
 
