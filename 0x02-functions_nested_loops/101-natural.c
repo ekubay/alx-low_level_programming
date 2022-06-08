@@ -1,18 +1,19 @@
 #include <stdio.h>
 /**
- * main - entry point
- * Return: Noting, it is void
+ * main - lists all number below 1024 that are multiple of 3 and 5
+ *  display their sum
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i, r;
+	int i, s = 0;
 
-	for (i = 0; i < 1042; i++)
+	for (i = 0; i < 1024; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
-			r += i;
+			s += i;
 
 	}
-	printf("%d\n", r);
+	printf("%d\n", s);
 	return (0);
 }
