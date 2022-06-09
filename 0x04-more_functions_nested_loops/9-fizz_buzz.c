@@ -23,7 +23,8 @@ int main(void)
 		else
 			printf("%d ", i);
 		if (i != 100)
-			putchar(' ');
+			printf(" ");
 	}
-	putchar('\n');
+	printf("\n");
+	return (0);
 }
