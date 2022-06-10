@@ -3,7 +3,7 @@
 /**
  * main - prints the numberfrom 1 to 100
  * but for multiplies of 3 print Fizz
- * multiplies of 5 print Buzz, for numbers wh are multiplies
+ * multiplies of 5 print Buzz, fori numbers wh are multiplies
  * both print FizzBuzz
  *
  * Return: always success
@@ -14,7 +14,7 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if ((i % 3 == 0) && (i % 5 == 0))
+		if ((i % 15 == 0))
 			printf("FizzBuzz");
 		else if (i % 3 == 0)
 			printf("Fizz");
@@ -23,8 +23,8 @@ int main(void)
 		else
 			printf("%d ", i);
 		if (i != 100)
-			printf(" ");
+			putchar(' ');
 	}
-	printf("\n");
+	printf("\n")
 	return (0);
 }
