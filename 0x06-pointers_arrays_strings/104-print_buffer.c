@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * print_buffer - prints a buffer 10 bytes at a time 
+ * print_buffer - prints a buffer 10 bytes at a time
  * @b: the buffer to be printed
  * @size: the number of bytes to be printed from the buffer
  */
@@ -16,7 +15,7 @@ void print_buffer(char *b, int size)
 		for (in = 0; in < 10; in++)
 		{
 			if ((in + bt) >= size)
-				printf(" ");
+				printf("  ");
 			else
 				printf("%02x", *(b + in + bt));
 			if ((in % 2) != 0 && in != 0)
