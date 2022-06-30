@@ -208,6 +208,7 @@ int main(int argc, char *argv[])
 			_putchar(final_prod[index]);
 	}
 	_putchar('\n');
+
 	free(next_prod);
 	free(final_prod);
 	return (0);
