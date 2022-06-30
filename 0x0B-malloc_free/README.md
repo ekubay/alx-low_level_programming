@@ -1,1 +1,1 @@
- dynamic memory alloction using malloc and freemethods are discussed in this project
+ dynamic memory alloction using malloc and free methods are discussed in this project
