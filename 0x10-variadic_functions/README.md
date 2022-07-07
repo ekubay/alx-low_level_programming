@@ -1,0 +1,1 @@
+This section describes how to declare variadic functions, how to write them, and how to call them properly.
